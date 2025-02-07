@@ -52,9 +52,12 @@
         <div
             class="flex flex-col lg:justify-center text-center lg:text-left gap-6 md:gap-8 lg:gap-10"
         >
-            <h2 class="font-semibold text-4xl sm:text-5xl md:text-6xl">
-                Hi! I'm <span class="poppins text-violet-400">SAMARTH</span>MUKTAMATH <br>as
-                <br />Front End 
+           <h2 class="font-semibold text-3xl sm:text-4xl md:text-5xl lg:text-6xl">
+                Hi! I'm <span class="poppins text-violet-400">SAMARTH</span>MUKTAMATH
+                <br class="hidden sm:block" /> <!-- Hide line break on mobile -->
+                as
+                <br class="sm:hidden" /> <!-- Add line break only on mobile -->
+                Front End 
                 <span class="poppins text-violet-400">Developer</span>
             </h2>
 
