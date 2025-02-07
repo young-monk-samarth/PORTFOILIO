@@ -131,48 +131,51 @@
        
 
     <!-- scroll info about creative -->
-  
-    
-   <section class="py-16 lg:py-24 flex flex-col gap-16 px-4 md:px-8 lg:px-16" id="projects">
-    <div class="flex flex-col gap-1.5 text-center">
-        <h6 class="text-large sm:text-xl md:text-2xl">
-            A few of my creative endeavors.
-        </h6>
-        <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
-            Curious to <span class="poppins text-violet-400">see</span> my work?
-        </h3>
-    </div>
+      <section class="py-16 lg:py-24 flex flex-col gap-16" id="projects">
+            <div class="flex flex-col gap-1.5 text-center">
+                <h6 class="text-large sm:text-xl md:text-2xl">
+                    A few of my creative endeavors.
+                </h6>
+                <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
+                    Curious to <span class="poppins text-violet-400">see</span> my work?
+                </h3>
+            </div>
 
-    <!-- button to direct video link -->
-    <a
-        href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-        target="_blank"
-        class="mx-auto px-4 py-2 rounded-md border border-solid border-white flex items-center gap-2 -mb-4 sm:-mb-0 -mt-10 hover:border-violet-700 duration-200"
-    >
-        <i class="fa-regular fa-circle-play"></i>
-        <p>Watch the video</p>
-    </a>
+            <!-- buttn to direct video link -->
+            <a
+                href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                target="_blank"
+                class="mx-auto px-4 py-2 rounded-md border border-solid border-white flex items-center gap-2 -mb-4 sm:-mb-0 -mt-10 hover:border-violet-700 duration-200"
+            >
+                <i class="fa-regular fa-circle-play" />
+                <p>Watch the video</p>
+            </a>
 
-    <!-- Listing steps -->
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 lg:gap-10 justify-center">
-        <div class="bg-white p-6 rounded-lg shadow-md">
-            <p>
-                My Web Portfolio is a dynamic and interactive website built using <strong class="text-violet-400">  
-                    SvelteKit , JavaScript </strong> styled with <strong
-                    class="text-violet-400">   TailwindCSS .</strong>
-                Features dynamic design, smooth transitions, ensuring an optimized user experience while showcasing my expertise in frontend development technologies.
-            </p>
-        </div>
-        <div class="bg-white p-6 rounded-lg shadow-md">
-            <!-- Weather description placeholder -->
-        </div>
-        <div class="bg-white p-6 rounded-lg shadow-md">
-            <p>
-                Video Summarization leverages long-duration videos to quickly summarize key content based on user queries, saving significant time. Built with <strong class="text-violet-400">Python</strong> for backend processing, it integrates <strong class="text-violet-400">YOLO (You Only Look Once)</strong> for real-time object detection, while the frontend is designed using <strong class="text-violet-400">CSS</strong> for an intuitive and responsive user interface.
-            </p>
-        </div>
-    </div>
-</section>
+        <!-- Listing  steps    -->
+
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10 justify-centre">
+                <Step step={steps[0]}>
+                    <p>
+                        My Web Portfolio is a dynamic and interactive website built using <strong
+                            class="text-violet-400">  
+                            SvelteKit , JavaScript </strong> styled with <strong
+                            class="text-violet-400">   TailwindCSS .</strong
+                        >  Features dynamic design, smooth transitions,ensuring an optimized user experience while showcasing my expertise in frontend development technologies .
+                    </p>
+                </Step>
+                <Step step={steps[1]}>
+                
+                    <!-- weatehr desc  -->
+                </Step>
+                <Step step={steps[2]}>
+                    <p>
+                        Video Summarization leverages long-duration videos to quickly summarize key content based on user queries, saving significant time. Built with <strong class="text-violet-400">Python</strong> for backend processing, it integrates <strong class="text-violet-400">YOLO (You Only Look Once)</strong> for real-time object detection, while the frontend is designed using <strong class="text-violet-400">CSS</strong> for an intuitive and responsive user interface.
+                    </p>
+                    
+                </Step>
+            </div>
+        </section>
+ 
 
 
 
