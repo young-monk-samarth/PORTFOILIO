@@ -190,6 +190,10 @@ color: white !important; /* Text color */
                 </sup>
             </a>
         </p>
+  <p class="text-center text-sm text-slate-500 mt-8">
+            &copy; All Rights Reserved.
+        </p>
+        
 
 
 
