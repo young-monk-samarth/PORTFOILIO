@@ -94,42 +94,58 @@
         </div>
 
             <!-- photo disply-->
-            <div class="wrapper"> <!-- Optional sizing wrapper -->
-                <div class="box">
-                    <img 
-                        src="webpic.jpg" 
-                        alt="Zetane Interface"
-                        loading="lazy"
-                    />
-                </div>
-            </div>
-            
-            <style>
-            .wrapper {
-                width: 400px;  /* Original container size */
-                height: 400px;
-                margin: 0 auto;
-            }
-            
-            .box {
-                position: relative;
-                width: 100%;    /* Half width */
-                height: 100%;   /* Half height */
-                overflow: hidden;
-                border-radius:10px 50px 10px 50px;
-            }
-            
-            .box img {
-                width: 100%;
-                height: 100%;
-                object-fit: cover;
-                transition: all 1s ease;
-            }
-            
-            .box:hover img {
-                transform: scale(1.2);
-            }
-            </style>
+            <div class="wrapper">
+    <div class="box">
+        <img
+            src="webpic.jpg"
+            alt=""
+            loading="lazy"
+        />
+    </div>
+</div>
+
+<style>
+    .wrapper {
+        width: 90%;  /* Use percentage instead of fixed width */
+        max-width: 400px;  /* Maximum width on larger screens */
+        height: auto;  /* Let height adjust automatically */
+        margin: 0 auto;
+        padding: 1rem;  /* Add some padding for smaller screens */
+    }
+
+    .box {
+        position: relative;
+        width: 100%;
+        aspect-ratio: 1/1;  /* Maintain square aspect ratio */
+        overflow: hidden;
+        border-radius: 10px 50px 10px 50px;
+    }
+
+    .box img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: all 1s ease;
+    }
+
+    .box:hover img {
+        transform: scale(1.2);
+    }
+
+    /* Media Queries for different screen sizes */
+    @media screen and (max-width: 768px) {
+        .wrapper {
+            width: 95%;  /* Slightly wider on mobile */
+            padding: 0.5rem;
+        }
+    }
+
+    @media screen and (max-width: 480px) {
+        .box {
+            border-radius: 8px 40px 8px 40px;  /* Slightly smaller border radius on very small screens */
+        }
+    }
+</style>
   </section>
        
 
