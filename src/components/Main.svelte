@@ -362,11 +362,12 @@
         <h5 class={" text-2xl sm:text-3xl font-semibold text-center poppins "}>
             The <span class="text-violet-400">Complete</span> Package
         </h5>
-        <div class="flex flex-col gap-10 max-w-[800px] mx-auto w-full overflow-x-hidden">
-            <table class="bg-[#EEE8FD] text-slate-900 rounded-md    text-center w-full">
+          <div class="flex flex-col gap-6 max-w-[800px] mx-auto w-full overflow-x-auto sm:overflow-x-hidden">
+        <div class="w-full overflow-x-auto">
+            <table class="bg-[#EEE8FD] text-slate-900 rounded-md text-center w-full min-w-[600px]">
                 <thead class="border-b border-solid border-slate-200">
                     <tr>
-                        <th />
+                        <th></th>
                         <th class="whitespace-nowrap p-2 px-4">Candidate #1</th>
                         <th class="whitespace-nowrap p-2 px-4">Candidate #2</th>
                         <th class="whitespace-nowrap p-2 px-4">Candidate #3</th>
@@ -375,62 +376,48 @@
                 </thead>
                 <tbody>
                     <tr class="border-b border-solid border-slate-200">
-                        <td
-                            class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm"
-                            >TeamWork & Collabrative</td
-                        >
-                        <td><i class="fa-solid fa-xmark text-slate-500" /></td>
-                        <td><i class="fa-solid fa-check text-slate-500" /></td>
-                        <td><i class="fa-solid fa-xmark text-slate-500" /></td>
-                        <td><i class="fa-solid fa-check text-green-500" /></td>
+                        <td class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm">Teamwork & Collaboration</td>
+                        <td><i class="fa-solid fa-xmark text-slate-500"></i></td>
+                        <td><i class="fa-solid fa-check text-slate-500"></i></td>
+                        <td><i class="fa-solid fa-xmark text-slate-500"></i></td>
+                        <td><i class="fa-solid fa-check text-green-500"></i></td>
                     </tr>
                     <tr class="border-b border-solid border-slate-200">
-                        <td
-                            class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm"
-                            >Resilience & Adaptability</td
-                        >
-                        <td><i class="fa-solid fa-xmark text-slate-500" /></td>
-                        <td><i class="fa-solid fa-check text-slate-500" /></td>
-                        <td><i class="fa-solid fa-check text-slate-500" /></td>
-                        <td><i class="fa-solid fa-check text-green-500" /></td>
+                        <td class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm">Resilience & Adaptability</td>
+                        <td><i class="fa-solid fa-xmark text-slate-500"></i></td>
+                        <td><i class="fa-solid fa-check text-slate-500"></i></td>
+                        <td><i class="fa-solid fa-check text-slate-500"></i></td>
+                        <td><i class="fa-solid fa-check text-green-500"></i></td>
                     </tr>
                     <tr>
-                        <td
-                            class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm"
-                            >Creativity</td
-                        >
-                        <td><i class="fa-solid fa-check text-slate-500" /></td>
-                        <td><i class="fa-solid fa-check text-slate-500" /></td>
-                        <td><i class="fa-solid fa-xmark text-slate-500" /></td>
-                        <td><i class="fa-solid fa-check text-green-500" /></td>
+                        <td class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm">Creativity</td>
+                        <td><i class="fa-solid fa-check text-slate-500"></i></td>
+                        <td><i class="fa-solid fa-check text-slate-500"></i></td>
+                        <td><i class="fa-solid fa-xmark text-slate-500"></i></td>
+                        <td><i class="fa-solid fa-check text-green-500"></i></td>
                     </tr>
                     <tr class="border-t border-solid border-slate-200">
-                        <td
-                            class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm"
-                            >Progamming Ability</td
-                        >
-                        <td><i class="fa-solid fa-check text-slate-500" /></td>
-                        <td><i class="fa-solid fa-xmark text-slate-500" /></td>
-                        <td><i class="fa-solid fa-check text-slate-500" /></td>
-                        <td><i class="fa-solid fa-check text-green-500" /></td>
+                        <td class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm">Programming Ability</td>
+                        <td><i class="fa-solid fa-check text-slate-500"></i></td>
+                        <td><i class="fa-solid fa-xmark text-slate-500"></i></td>
+                        <td><i class="fa-solid fa-check text-slate-500"></i></td>
+                        <td><i class="fa-solid fa-check text-green-500"></i></td>
                     </tr>
                     <tr class="border-t border-solid border-slate-200">
-                        <td
-                            class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm"
-                            >Interpersonal Skills</td
-                        >
-                        <td><i class="fa-solid fa-check text-slate-500" /></td>
-                        <td><i class="fa-solid fa-xmark text-slate-500" /></td>
-                        <td><i class="fa-solid fa-check text-slate-500" /></td>
-                        <td><i class="fa-solid fa-check text-green-500" /></td>
+                        <td class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm">Interpersonal Skills</td>
+                        <td><i class="fa-solid fa-check text-slate-500"></i></td>
+                        <td><i class="fa-solid fa-xmark text-slate-500"></i></td>
+                        <td><i class="fa-solid fa-check text-slate-500"></i></td>
+                        <td><i class="fa-solid fa-check text-green-500"></i></td>
                     </tr>
                 </tbody>
             </table>
         </div>
-        <div class="mx-auto -mt-12 italic sm:hidden opacity-50">
-            <p>Scroll to see more &rarr;</p>
-        </div>
-        <p class="mx-auto text-2xl font-bold font-roboto">So why not invest?</p>
-
-    </section>
+    </div>
+    <div class="mx-auto -mt-8 italic sm:hidden opacity-50 text-center text-sm">
+        <p>Scroll to see more &rarr;</p>
+    </div>
+    <p class="mx-auto text-2xl font-bold font-roboto text-center mt-4">So why not invest?</p>
+</section>
 </main>
+    
