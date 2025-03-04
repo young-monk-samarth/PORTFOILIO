@@ -97,7 +97,7 @@
             <div class="wrapper">
     <div class="box">
         <img
-            src="webpic.jpg"
+            src="profile.jpg"
             alt=""
             loading="lazy"
         />
