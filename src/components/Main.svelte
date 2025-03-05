@@ -254,6 +254,7 @@
 
 
         
+        
         <section id="tech" class="py-14 sm:py-20">
             <div class="container mx-auto px-4">
                 <div class="max-w-6xl mx-auto">
@@ -262,110 +263,316 @@
                             My <span class="poppins text-violet-400">Tech Stack</span>
                         </h2>
                         <p class="text-slate-300 mt-4 text-lg sm:text-xl">
-                            Tools & technologies I use to bring ideas to life
+                            Skills & technologies I use to bring ideas to life
                         </p>
                     </div>
         
-                    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 sm:gap-6">
-                        <!-- Tech Items - Updated Hover Effect -->
-                        <div class="group relative p-4 sm:p-5 rounded-xl border border-slate-700/20 hover:border-violet-400/30 transition-all duration-300 hover:-translate-y-1.5 overflow-hidden">
-                            <!-- Glass Background -->
+                    <!-- Filter Buttons with Descending Style -->
+                   
+                    <div class="flex flex-wrap justify-center gap-2 sm:gap-4 mb-8 px-2 sm:px-0">
+                        <button class="filter-btn px-2 py-1 sm:px-4 sm:py-2 rounded-t-lg bg-zinc-900 text-white hover:bg-violet-700 transition-colors shadow-md text-sm sm:text-base" data-filter="all">All</button>
+                        <button class="filter-btn px-2 py-1 sm:px-4 sm:py-2 rounded-t-lg bg-zinc-900 text-white hover:bg-violet-700 transition-colors shadow-md text-sm sm:text-base" data-filter="frontend">Frontend</button>
+                        <button class="filter-btn px-2 py-1 sm:px-4 sm:py-2 rounded-t-lg bg-zinc-900 text-white hover:bg-violet-700 transition-colors shadow-md text-sm sm:text-base" data-filter="backend">Backend</button>
+                        <button class="filter-btn px-2 py-1 sm:px-4 sm:py-2 rounded-t-lg bg-zinc-900 text-white hover:bg-violet-700 transition-colors shadow-md text-sm sm:text-base" data-filter="database">Database</button>
+                        <button class="filter-btn px-2 py-1 sm:px-4 sm:py-2 rounded-t-lg bg-zinc-900 text-white hover:bg-violet-700 transition-colors shadow-md text-sm sm:text-base" data-filter="tools">Tools</button>
+                    </div>
+        
+                    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 sm:gap-6 tech-grid">
+                        <!-- HTML5 - Frontend -->
+                        <div class="group relative p-4 sm:p-5 rounded-xl border border-slate-700/20 hover:border-violet-400/30 transition-all duration-300 hover:-translate-y-1.5 overflow-hidden tech-item" data-category="frontend">
                             <div class="absolute inset-0 bg-slate-800/20 backdrop-blur-md"></div>
-                            <!-- Hover Overlay -->
                             <div class="absolute inset-0 bg-violet-600/0 group-hover:bg-violet-600/20 transition-colors duration-300"></div>
-                            
                             <div class="relative flex flex-col items-center">
-                                <span class="text-violet-400 text-2xl mb-2">◆</span>
+                                <i class="fa-brands fa-html5 text-orange-600 text-2xl mb-2"></i>
                                 <h3 class="poppins font-medium text-lg">HTML5</h3>
                                 <p class="text-slate-400 text-sm mt-1">Semantic Web</p>
                             </div>
                         </div>
         
-                        <!-- CSS3 -->
-                        <div class="group relative p-4 sm:p-5 rounded-xl border border-slate-700/20 hover:border-violet-400/30 transition-all duration-300 hover:-translate-y-1.5 overflow-hidden">
+                        <!-- CSS3 - Frontend -->
+                        <div class="group relative p-4 sm:p-5 rounded-xl border border-slate-700/20 hover:border-violet-400/30 transition-all duration-300 hover:-translate-y-1.5 overflow-hidden tech-item" data-category="frontend">
                             <div class="absolute inset-0 bg-slate-800/20 backdrop-blur-md"></div>
                             <div class="absolute inset-0 bg-violet-600/0 group-hover:bg-violet-600/20 transition-colors duration-300"></div>
                             <div class="relative flex flex-col items-center">
-                                <span class="text-violet-400 text-2xl mb-2">✦</span>
+                                <i class="fa-brands fa-css3-alt text-blue-600 text-2xl mb-2"></i>
                                 <h3 class="poppins font-medium text-lg">CSS3</h3>
                                 <p class="text-slate-400 text-sm mt-1">Styling Master</p>
                             </div>
                         </div>
         
-                        <!-- Tailwind -->
-                        <div class="group relative p-4 sm:p-5 rounded-xl border border-slate-700/20 hover:border-violet-400/30 transition-all duration-300 hover:-translate-y-1.5 overflow-hidden">
+                        <!-- Tailwind - Frontend -->
+                        <div class="group relative p-4 sm:p-5 rounded-xl border border-slate-700/20 hover:border-violet-400/30 transition-all duration-300 hover:-translate-y-1.5 overflow-hidden tech-item" data-category="frontend">
                             <div class="absolute inset-0 bg-slate-800/20 backdrop-blur-md"></div>
                             <div class="absolute inset-0 bg-violet-600/0 group-hover:bg-violet-600/20 transition-colors duration-300"></div>
                             <div class="relative flex flex-col items-center">
-                                <span class="text-violet-400 text-2xl mb-2">❖</span>
+                                <i class="fa-solid fa-wind text-teal-400 text-2xl mb-2"></i>
                                 <h3 class="poppins font-medium text-lg">Tailwind</h3>
                                 <p class="text-slate-400 text-sm mt-1">Utility First</p>
                             </div>
                         </div>
         
-                        <!-- JavaScript -->
-                        <div class="group relative p-4 sm:p-5 rounded-xl border border-slate-700/20 hover:border-violet-400/30 transition-all duration-300 hover:-translate-y-1.5 overflow-hidden">
+                        <!-- JavaScript - Frontend -->
+                        <div class="group relative p-4 sm:p-5 rounded-xl border border-slate-700/20 hover:border-violet-400/30 transition-all duration-300 hover:-translate-y-1.5 overflow-hidden tech-item" data-category="frontend">
                             <div class="absolute inset-0 bg-slate-800/20 backdrop-blur-md"></div>
                             <div class="absolute inset-0 bg-violet-600/0 group-hover:bg-violet-600/20 transition-colors duration-300"></div>
                             <div class="relative flex flex-col items-center">
-                                <span class="text-violet-400 text-2xl mb-2">⎇</span>
+                                <i class="fa-brands fa-square-js text-yellow-400 text-2xl mb-2"></i>
                                 <h3 class="poppins font-medium text-lg">JavaScript</h3>
                                 <p class="text-slate-400 text-sm mt-1">ES6+</p>
                             </div>
                         </div>
         
-                        <!-- TypeScript -->
-                        <div class="group relative p-4 sm:p-5 rounded-xl border border-slate-700/20 hover:border-violet-400/30 transition-all duration-300 hover:-translate-y-1.5 overflow-hidden">
+                        <!-- TypeScript - Frontend -->
+                        <div class="group relative p-4 sm:p-5 rounded-xl border border-slate-700/20 hover:border-violet-400/30 transition-all duration-300 hover:-translate-y-1.5 overflow-hidden tech-item" data-category="frontend">
                             <div class="absolute inset-0 bg-slate-800/20 backdrop-blur-md"></div>
                             <div class="absolute inset-0 bg-violet-600/0 group-hover:bg-violet-600/20 transition-colors duration-300"></div>
                             <div class="relative flex flex-col items-center">
-                                <span class="text-violet-400 text-2xl mb-2">Τ</span>
+                                <i class="fa-solid fa-t text-blue-700 text-2xl mb-2"></i>
                                 <h3 class="poppins font-medium text-lg">TypeScript</h3>
                                 <p class="text-slate-400 text-sm mt-1">Typed JS</p>
                             </div>
                         </div>
         
-                        <!-- Svelte -->
-                        <div class="group relative p-4 sm:p-5 rounded-xl border border-slate-700/20 hover:border-violet-400/30 transition-all duration-300 hover:-translate-y-1.5 overflow-hidden">
+                        <!-- Svelte - Frontend -->
+                        <div class="group relative p-4 sm:p-5 rounded-xl border border-slate-700/20 hover:border-violet-400/30 transition-all duration-300 hover:-translate-y-1.5 overflow-hidden tech-item" data-category="frontend">
                             <div class="absolute inset-0 bg-slate-800/20 backdrop-blur-md"></div>
                             <div class="absolute inset-0 bg-violet-600/0 group-hover:bg-violet-600/20 transition-colors duration-300"></div>
                             <div class="relative flex flex-col items-center">
-                                <span class="text-violet-400 text-2xl mb-2">⚡</span>
+                                <i class="fa-solid fa-bolt text-orange-500 text-2xl mb-2"></i>
                                 <h3 class="poppins font-medium text-lg">Svelte</h3>
                                 <p class="text-slate-400 text-sm mt-1">Reactive</p>
                             </div>
                         </div>
         
-                        <!-- SvelteKit -->
-                        <div class="group relative p-4 sm:p-5 rounded-xl border border-slate-700/20 hover:border-violet-400/30 transition-all duration-300 hover:-translate-y-1.5 overflow-hidden">
+                        <!-- SvelteKit - Frontend/Backend -->
+                        <div class="group relative p-4 sm:p-5 rounded-xl border border-slate-700/20 hover:border-violet-400/30 transition-all duration-300 hover:-translate-y-1.5 overflow-hidden tech-item" data-category="frontend backend">
                             <div class="absolute inset-0 bg-slate-800/20 backdrop-blur-md"></div>
                             <div class="absolute inset-0 bg-violet-600/0 group-hover:bg-violet-600/20 transition-colors duration-300"></div>
                             <div class="relative flex flex-col items-center">
-                                <span class="text-violet-400 text-2xl mb-2">🚀</span>
+                                <i class="fa-solid fa-rocket text-orange-500 text-2xl mb-2"></i>
                                 <h3 class="poppins font-medium text-lg">SvelteKit</h3>
                                 <p class="text-slate-400 text-sm mt-1">Fullstack</p>
                             </div>
                         </div>
         
-                        <!-- C -->
-                        <div class="group relative p-4 sm:p-5 rounded-xl border border-slate-700/20 hover:border-violet-400/30 transition-all duration-300 hover:-translate-y-1.5 overflow-hidden">
+                        <!-- Node.js - Backend -->
+                        <div class="group relative p-4 sm:p-5 rounded-xl border border-slate-700/20 hover:border-violet-400/30 transition-all duration-300 hover:-translate-y-1.5 overflow-hidden tech-item" data-category="backend">
                             <div class="absolute inset-0 bg-slate-800/20 backdrop-blur-md"></div>
                             <div class="absolute inset-0 bg-violet-600/0 group-hover:bg-violet-600/20 transition-colors duration-300"></div>
                             <div class="relative flex flex-col items-center">
-                                <span class="text-violet-400 text-2xl mb-2"></span>
+                                <i class="fa-brands fa-node-js text-green-500 text-2xl mb-2"></i>
+                                <h3 class="poppins font-medium text-lg">Node.js</h3>
+                                <p class="text-slate-400 text-sm mt-1">Runtime</p>
+                            </div>
+                        </div>
+        
+                        <!-- Express.js - Backend -->
+                        <div class="group relative p-4 sm:p-5 rounded-xl border border-slate-700/20 hover:border-violet-400/30 transition-all duration-300 hover:-translate-y-1.5 overflow-hidden tech-item" data-category="backend">
+                            <div class="absolute inset-0 bg-slate-800/20 backdrop-blur-md"></div>
+                            <div class="absolute inset-0 bg-violet-600/0 group-hover:bg-violet-600/20 transition-colors duration-300"></div>
+                            <div class="relative flex flex-col items-center">
+                                <i class="fa-solid fa-server text-gray-300 text-2xl mb-2"></i>
+                                <h3 class="poppins font-medium text-lg">Express.js</h3>
+                                <p class="text-slate-400 text-sm mt-1">Web Framework</p>
+                            </div>
+                        </div>
+        
+                        <!-- MongoDB - Database -->
+                        <div class="group relative p-4 sm:p-5 rounded-xl border border-slate-700/20 hover:border-violet-400/30 transition-all duration-300 hover:-translate-y-1.5 overflow-hidden tech-item" data-category="database">
+                            <div class="absolute inset-0 bg-slate-800/20 backdrop-blur-md"></div>
+                            <div class="absolute inset-0 bg-violet-600/0 group-hover:bg-violet-600/20 transition-colors duration-300"></div>
+                            <div class="relative flex flex-col items-center">
+                                <i class="fa-solid fa-leaf text-green-600 text-2xl mb-2"></i>
+                                <h3 class="poppins font-medium text-lg">MongoDB</h3>
+                                <p class="text-slate-400 text-sm mt-1">NoSQL</p>
+                            </div>
+                        </div>
+        
+                        <!-- SQL - Database -->
+                        <div class="group relative p-4 sm:p-5 rounded-xl border border-slate-700/20 hover:border-violet-400/30 transition-all duration-300 hover:-translate-y-1.5 overflow-hidden tech-item" data-category="database">
+                            <div class="absolute inset-0 bg-slate-800/20 backdrop-blur-md"></div>
+                            <div class="absolute inset-0 bg-violet-600/0 group-hover:bg-violet-600/20 transition-colors duration-300"></div>
+                            <div class="relative flex flex-col items-center">
+                                <i class="fa-solid fa-database text-blue-500 text-2xl mb-2"></i>
+                                <h3 class="poppins font-medium text-lg">SQL</h3>
+                                <p class="text-slate-400 text-sm mt-1">Relational DB</p>
+                            </div>
+                        </div>
+        
+                        <!-- C - Backend -->
+                        <div class="group relative p-4 sm:p-5 rounded-xl border border-slate-700/20 hover:border-violet-400/30 transition-all duration-300 hover:-translate-y-1.5 overflow-hidden tech-item" data-category="backend">
+                            <div class="absolute inset-0 bg-slate-800/20 backdrop-blur-md"></div>
+                            <div class="absolute inset-0 bg-violet-600/0 group-hover:bg-violet-600/20 transition-colors duration-300"></div>
+                            <div class="relative flex flex-col items-center">
+                                <i class="fa-solid fa-c text-blue-600 text-2xl mb-2"></i>
                                 <h3 class="poppins font-medium text-lg">C</h3>
                                 <p class="text-slate-400 text-sm mt-1">System Basics</p>
                             </div>
                         </div>
         
-                        <!-- C++ -->
-                        <div class="group relative p-4 sm:p-5 rounded-xl border border-slate-700/20 hover:border-violet-400/30 transition-all duration-300 hover:-translate-y-1.5 overflow-hidden">
+                        <!-- C++ - Backend -->
+                        <div class="group relative p-4 sm:p-5 rounded-xl border border-slate-700/20 hover:border-violet-400/30 transition-all duration-300 hover:-translate-y-1.5 overflow-hidden tech-item" data-category="backend">
                             <div class="absolute inset-0 bg-slate-800/20 backdrop-blur-md"></div>
                             <div class="absolute inset-0 bg-violet-600/0 group-hover:bg-violet-600/20 transition-colors duration-300"></div>
                             <div class="relative flex flex-col items-center">
-                                <span class="text-violet-400 text-2xl mb-2">++</span>
+                                <i class="fa-solid fa-plus-plus text-blue-600 text-2xl mb-2"></i>
                                 <h3 class="poppins font-medium text-lg">C++</h3>
                                 <p class="text-slate-400 text-sm mt-1">OOP</p>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- Tools Section -->
+                        <div class="text-center mt-16 mb-12">
+                            <h2 class="text-3xl sm:text-4xl md:text-5xl font-semibold">
+                                My <span class="poppins text-violet-400">Tools</span>
+                            </h2>
+                            <p class="text-slate-300 mt-4 text-lg sm:text-xl">
+                                Development tools & utilities
+                            </p>
+                        </div>
+            
+                    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 sm:gap-6 tech-grid">
+                        <!-- Git - Tools -->
+                        <div class="group relative p-4 sm:p-5 rounded-xl border border-slate-700/20 hover:border-violet-400/30 transition-all duration-300 hover:-translate-y-1.5 overflow-hidden tech-item" data-category="tools">
+                            <div class="absolute inset-0 bg-slate-800/20 backdrop-blur-md"></div>
+                            <div class="absolute inset-0 bg-violet-600/0 group-hover:bg-violet-600/20 transition-colors duration-300"></div>
+                            <div class="relative flex flex-col items-center">
+                                <i class="fa-brands fa-git-alt text-orange-600 text-2xl mb-2"></i>
+                                <h3 class="poppins font-medium text-lg">Git</h3>
+                                <p class="text-slate-400 text-sm mt-1">Version Control</p>
+                            </div>
+                        </div>
+        
+                        <!-- GitHub - Tools -->
+                        <div class="group relative p-4 sm:p-5 rounded-xl border border-slate-700/20 hover:border-violet-400/30 transition-all duration-300 hover:-translate-y-1.5 overflow-hidden tech-item" data-category="tools">
+                            <div class="absolute inset-0 bg-slate-800/20 backdrop-blur-md"></div>
+                            <div class="absolute inset-0 bg-violet-600/0 group-hover:bg-violet-600/20 transition-colors duration-300"></div>
+                            <div class="relative flex flex-col items-center">
+                                <i class="fa-brands fa-github text-gray-200 text-2xl mb-2"></i>
+                                <h3 class="poppins font-medium text-lg">GitHub</h3>
+                                <p class="text-slate-400 text-sm mt-1">Code Hosting</p>
+                            </div>
+                        </div>
+        
+                        <!-- Postman - Tools -->
+                        <div class="group relative p-4 sm:p-5 rounded-xl border border-slate-700/20 hover:border-violet-400/30 transition-all duration-300 hover:-translate-y-1.5 overflow-hidden tech-item" data-category="tools">
+                            <div class="absolute inset-0 bg-slate-800/20 backdrop-blur-md"></div>
+                            <div class="absolute inset-0 bg-violet-600/0 group-hover:bg-violet-600/20 transition-colors duration-300"></div>
+                            <div class="relative flex flex-col items-center">
+                                <i class="fa-solid fa-envelope text-orange-500 text-2xl mb-2"></i>
+                                <h3 class="poppins font-medium text-lg">Postman</h3>
+                                <p class="text-slate-400 text-sm mt-1">API Testing</p>
+                            </div>
+                        </div>
+        
+                        <!-- VS Code - Tools -->
+                        <div class="group relative p-4 sm:p-5 rounded-xl border border-slate-700/20 hover:border-violet-400/30 transition-all duration-300 hover:-translate-y-1.5 overflow-hidden tech-item" data-category="tools">
+                            <div class="absolute inset-0 bg-slate-800/20 backdrop-blur-md"></div>
+                            <div class="absolute inset-0 bg-violet-600/0 group-hover:bg-violet-600/20 transition-colors duration-300"></div>
+                            <div class="relative flex flex-col items-center">
+                                <i class="fa-solid fa-code text-blue-500 text-2xl mb-2"></i>
+                                <h3 class="poppins font-medium text-lg">VS Code</h3>
+                                <p class="text-slate-400 text-sm mt-1">Code Editor</p>
+                            </div>
+                        </div>
+        
+                        <!-- Cursor - Tools -->
+                        <div class="group relative p-4 sm:p-5 rounded-xl border border-slate-700/20 hover:border-violet-400/30 transition-all duration-300 hover:-translate-y-1.5 overflow-hidden tech-item" data-category="tools">
+                            <div class="absolute inset-0 bg-slate-800/20 backdrop-blur-md"></div>
+                            <div class="absolute inset-0 bg-violet-600/0 group-hover:bg-violet-600/20 transition-colors duration-300"></div>
+                            <div class="relative flex flex-col items-center">
+                                <i class="fa-solid fa-mouse-pointer text-gray-400 text-2xl mb-2"></i>
+                                <h3 class="poppins font-medium text-lg">Cursor</h3>
+                                <p class="text-slate-400 text-sm mt-1">AI Editor</p>
+                            </div>
+                        </div>
+        
+                        <!-- Dora AI - Tools -->
+                        <div class="group relative p-4 sm:p-5 rounded-xl border border-slate-700/20 hover:border-violet-400/30 transition-all duration-300 hover:-translate-y-1.5 overflow-hidden tech-item" data-category="tools">
+                            <div class="absolute inset-0 bg-slate-800/20 backdrop-blur-md"></div>
+                            <div class="absolute inset-0 bg-violet-600/0 group-hover:bg-violet-600/20 transition-colors duration-300"></div>
+                            <div class="relative flex flex-col items-center">
+                                <i class="fa-solid fa-robot text-purple-500 text-2xl mb-2"></i>
+                                <h3 class="poppins font-medium text-lg">Dora AI</h3>
+                                <p class="text-slate-400 text-sm mt-1">AI Design</p>
+                            </div>
+                        </div>
+        
+                        <!-- Wide Canvas - Tools -->
+                        <div class="group relative p-4 sm:p-5 rounded-xl border border-slate-700/20 hover:border-violet-400/30 transition-all duration-300 hover:-translate-y-1.5 overflow-hidden tech-item" data-category="tools">
+                            <div class="absolute inset-0 bg-slate-800/20 backdrop-blur-md"></div>
+                            <div class="absolute inset-0 bg-violet-600/0 group-hover:bg-violet-600/20 transition-colors duration-300"></div>
+                            <div class="relative flex flex-col items-center">
+                                <i class="fa-solid fa-paint-brush text-pink-500 text-2xl mb-2"></i>
+                                <h3 class="poppins font-medium text-lg">Wide Canvas</h3>
+                                <p class="text-slate-400 text-sm mt-1">Design Tool</p>
+                            </div>
+                        </div>
+        
+                        <!-- ChatGPT - Tools -->
+                        <div class="group relative p-4 sm:p-5 rounded-xl border border-slate-700/20 hover:border-violet-400/30 transition-all duration-300 hover:-translate-y-1.5 overflow-hidden tech-item" data-category="tools">
+                            <div class="absolute inset-0 bg-slate-800/20 backdrop-blur-md"></div>
+                            <div class="absolute inset-0 bg-violet-600/0 group-hover:bg-violet-600/20 transition-colors duration-300"></div>
+                            <div class="relative flex flex-col items-center">
+                                <i class="fa-solid fa-comment-dots text-green-500 text-2xl mb-2"></i>
+                                <h3 class="poppins font-medium text-lg">ChatGPT</h3>
+                                <p class="text-slate-400 text-sm mt-1">AI Assistant</p>
+                            </div>
+                        </div>
+        
+                        <!-- Claude - Tools -->
+                        <div class="group relative p-4 sm:p-5 rounded-xl border border-slate-700/20 hover:border-violet-400/30 transition-all duration-300 hover:-translate-y-1.5 overflow-hidden tech-item" data-category="tools">
+                            <div class="absolute inset-0 bg-slate-800/20 backdrop-blur-md"></div>
+                            <div class="absolute inset-0 bg-violet-600/0 group-hover:bg-violet-600/20 transition-colors duration-300"></div>
+                            <div class="relative flex flex-col items-center">
+                                <i class="fa-solid fa-brain text-orange-400 text-2xl mb-2"></i>
+                                <h3 class="poppins font-medium text-lg">Claude</h3>
+                                <p class="text-slate-400 text-sm mt-1">AI Model</p>
+                            </div>
+                        </div>
+        
+                        <!-- DeepSeek - Tools -->
+                        <div class="group relative p-4 sm:p-5 rounded-xl border border-slate-700/20 hover:border-violet-400/30 transition-all duration-300 hover:-translate-y-1.5 overflow-hidden tech-item" data-category="tools">
+                            <div class="absolute inset-0 bg-slate-800/20 backdrop-blur-md"></div>
+                            <div class="absolute inset-0 bg-violet-600/0 group-hover:bg-violet-600/20 transition-colors duration-300"></div>
+                            <div class="relative flex flex-col items-center">
+                                <i class="fa-solid fa-magnifying-glass text-blue-500 text-2xl mb-2"></i>
+                                <h3 class="poppins font-medium text-lg">DeepSeek</h3>
+                                <p class="text-slate-400 text-sm mt-1">AI Search</p>
+                            </div>
+                        </div>
+        
+                        <!-- Grok - Tools -->
+                        <div class="group relative p-4 sm:p-5 rounded-xl border border-slate-700/20 hover:border-violet-400/30 transition-all duration-300 hover:-translate-y-1.5 overflow-hidden tech-item" data-category="tools">
+                            <div class="absolute inset-0 bg-slate-800/20 backdrop-blur-md"></div>
+                            <div class="absolute inset-0 bg-violet-600/0 group-hover:bg-violet-600/20 transition-colors duration-300"></div>
+                            <div class="relative flex flex-col items-center">
+                                <i class="fa-solid fa-star text-blue-400 text-2xl mb-2"></i>
+                                <h3 class="poppins font-medium text-lg">Grok</h3>
+                                <p class="text-slate-400 text-sm mt-1">AI Helper</p>
+                            </div>
+                        </div>
+        
+                        <!-- Mistral - Tools -->
+                        <div class="group relative p-4 sm:p-5 rounded-xl border border-slate-700/20 hover:border-violet-400/30 transition-all duration-300 hover:-translate-y-1.5 overflow-hidden tech-item" data-category="tools">
+                            <div class="absolute inset-0 bg-slate-800/20 backdrop-blur-md"></div>
+                            <div class="absolute inset-0 bg-violet-600/0 group-hover:bg-violet-600/20 transition-colors duration-300"></div>
+                            <div class="relative flex flex-col items-center">
+                                <i class="fa-solid fa-wind text-teal-400 text-2xl mb-2"></i>
+                                <h3 class="poppins font-medium text-lg">Mistral</h3>
+                                <p class="text-slate-400 text-sm mt-1">AI Engine</p>
+                            </div>
+                        </div>
+        
+                        <!-- V0 - Tools -->
+                        <div class="group relative p-4 sm:p-5 rounded-xl border border-slate-700/20 hover:border-violet-400/30 transition-all duration-300 hover:-translate-y-1.5 overflow-hidden tech-item" data-category="tools">
+                            <div class="absolute inset-0 bg-slate-800/20 backdrop-blur-md"></div>
+                            <div class="absolute inset-0 bg-violet-600/0 group-hover:bg-violet-600/20 transition-colors duration-300"></div>
+                            <div class="relative flex flex-col items-center">
+                                <i class="fa-solid fa-layer-group text-purple-600 text-2xl mb-2"></i>
+                                <h3 class="poppins font-medium text-lg">V0</h3>
+                                <p class="text-slate-400 text-sm mt-1">UI Generator</p>
                             </div>
                         </div>
                     </div>
@@ -373,6 +580,84 @@
             </div>
         </section>
         
+        <script>
+            document.addEventListener('DOMContentLoaded', () => {
+                const filterButtons = document.querySelectorAll('.filter-btn');
+                const techItems = document.querySelectorAll('.tech-item');
+                const toolsSection = document.querySelector('.text-center.mt-16.mb-12'); // Target the entire section
+        
+                filterButtons.forEach(button => {
+                    button.addEventListener('click', () => {
+                        // Update button styles
+                        filterButtons.forEach(btn => {
+                            btn.classList.remove('bg-violet-600');
+                            btn.classList.add('bg-gray-900');
+                        });
+                        button.classList.remove('bg-gray-900');
+                        button.classList.add('bg-violet-600');
+        
+                        // Filter items and toggle tools section visibility
+                        const filter = button.dataset.filter;
+        
+                        // Toggle "My Tools" section visibility
+                        if (filter === 'all') {
+    toolsSection.style.display = 'block'; // Show section when "All" is clicked
+    toolsSection.classList.add('animate-fade-in');
+} else if (filter === 'tools') {
+    toolsSection.style.display = 'block'; // Ensure section is visible for 'tools'
+    toolsSection.classList.add('animate-fade-in');
+} else {
+    toolsSection.style.display = 'none'; // Hide section for other filters
+    toolsSection.classList.remove('animate-fade-in');
+}
+
+                        // Filter tech items
+                        techItems.forEach(item => {
+                            const categories = item.dataset.category.split(' ');
+                            if (filter === 'all' || categories.includes(filter)) {
+                                item.style.display = 'block';
+                                item.classList.add('animate-fade-in');
+                            } else {
+                                item.style.display = 'none';
+                                item.classList.remove('animate-fade-in');
+                            }
+                        });
+                    });
+                });
+            });
+        </script>
+        
+        <style>
+            .animate-fade-in {
+                animation: fadeIn 0.3s ease-in;
+            }
+        
+            @keyframes fadeIn {
+                from {
+                    opacity: 0;
+                    transform: translateY(10px);
+                }
+                to {
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+            }
+        
+            .filter-btn {
+                transform: perspective(500px) rotateX(20deg);
+                transform-origin: top;
+                transition: all 0.3s ease;
+            }
+        
+            .filter-btn:hover {
+                transform: perspective(500px) rotateX(0deg);
+            }
+        </style>
+
+            
+            
+
+
 
 
 
