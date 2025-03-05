@@ -48,6 +48,30 @@
                 }
             }
         </style>
+<script>
+            const diceIcon = document.getElementById('dice-icon');
+            let isViolet = false; // Track the color state
+        
+            diceIcon.addEventListener('mouseenter', () => {
+                // Add spin animation
+                diceIcon.classList.add('spinning');
+        
+                // Toggle color
+                if (!isViolet) {
+                    diceIcon.style.color = '#c084fc'; // violet-400
+                    isViolet = true;
+                } else {
+                    diceIcon.style.color = '#f3f4f6'; // gray-100
+                    isViolet = false;
+                }
+        
+                // Remove spin class after animation ends
+                setTimeout(() => {
+                    diceIcon.classList.remove('spinning');
+                }, 600); // Matches animation duration (0.6s)
+            });
+        </script>
+        
 
         <!-- Mobile Menu Button -->
         <button 
