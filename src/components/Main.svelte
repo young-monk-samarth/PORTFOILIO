@@ -253,6 +253,106 @@
 
 
 
+   <section id="xp"
+    class="p-4 sm:p-8 md:p-12 lg:p-16 bg-slate-800/20 backdrop-blur-md text-white mt-12 sm:mt-24 md:mt-48">
+    <h2 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-10 sm:mb-14">
+        <span class="bg-gradient-to-r from-white to-violet-400 inline-block text-transparent bg-clip-text">
+            Professional Journey
+        </span>
+        <p class="text-xs sm:text-sm text-slate-700 text-center mt-6 sm:mt-8 opacity-75">
+            Hover Cards for Visibility
+        </p>
+        
+        
+    </h2>
+    
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 mt-4">
+        <!-- Experience Card 1 -->
+        <div class="relative bg-black rounded-xl shadow-2xl overflow-hidden transform transition-all duration-300 hover:scale-105 hover:shadow-xl hover:shadow-gray-900/50 border border-gray-700 hover:border-gray-500">
+            <div class="p-4 sm:p-6 bg-gradient-to-br from-gray-950 to-black rounded-xl backdrop-blur-lg transition-all duration-300 hover:from-black hover:to-gray-900">
+                <div class="absolute inset-0 bg-black/50 opacity-100 hover:opacity-0 transition-opacity duration-500"></div>
+                <h3 class="text-lg sm:text-xl md:text-2xl font-semibold bg-gradient-to-r from-violet-200 to-white inline-block text-transparent bg-clip-text">
+                    Software Development Intern
+                </h3>
+                <p class="text-xs sm:text-sm md:text-base text-slate-200 mt-2 hover:text-slate-100 transition-colors duration-300">
+                    <span class="font-bold text-violet-300 italic">Inflection Zone Lab Private Limited</span> - Pune, Maharashtra
+                </p>
+                <p class="text-xs sm:text-sm md:text-base text-slate-300 italic hover:text-slate-200 transition-colors duration-300">
+                    Sept 2024 – Feb 2025
+                </p>
+                <ul class="mt-3 sm:mt-4 space-y-2 sm:space-y-3 text-slate-200 hover:text-slate-100 transition-colors duration-300 text-xs sm:text-sm md:text-base">
+                    <li class="flex items-start">
+                        <span class="text-violet-400 mr-2">•</span>
+                        Trained in Svelte during an internship, gaining hands-on experience in building high-performance, scalable, and user-centric frontend applications while adhering to industry best practices.
+                    </li>
+                    <li class="flex items-start">
+                        <span class="text-violet-400 mr-2">•</span>
+                        Gained valuable insights into frontend development while continuously learning and adapting to emerging trends and technologies.
+                    </li>
+                    <li class="flex items-start">
+                        <span class="text-violet-400 mr-2">•</span>
+                        General responsibilities included documenting requirements, resolving queries, and maintaining updated reports and documentation.
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+      <!-- Experience Card 2 -->
+<div class="relative bg-black rounded-xl shadow-2xl overflow-hidden transform transition-all duration-300 hover:scale-105 hover:shadow-xl hover:shadow-gray-900/50 border border-gray-700 hover:border-gray-500">
+    <div class="p-4 sm:p-6 bg-gradient-to-br from-gray-950 to-black rounded-xl backdrop-blur-lg transition-all duration-300 hover:from-black hover:to-gray-900">
+        <div class="absolute inset-0 bg-black/50 opacity-100 hover:opacity-0 transition-opacity duration-500"></div>
+        <h3 class="text-lg sm:text-xl md:text-2xl font-semibold bg-gradient-to-r from-violet-200 to-white inline-block text-transparent bg-clip-text">
+            Software Developer
+        </h3>
+        <p class="text-xs sm:text-sm md:text-base text-slate-200 mt-2 hover:text-slate-100 transition-colors duration-300">
+            <span class="font-bold text-violet-300 italic">Inflection Zone Lab Private Limited</span> - Pune, Maharashtra
+        </p>
+        <p class="text-xs sm:text-sm md:text-base text-slate-300 italic hover:text-slate-200 transition-colors duration-300">
+            March 1, 2025 – Present
+        </p>
+        <ul class="mt-3 sm:mt-4 space-y-2 sm:space-y-3 text-slate-200 hover:text-slate-100 transition-colors duration-300 text-xs sm:text-sm md:text-base">
+            <li class="flex items-start">
+                <span class="text-violet-400 mr-2">•</span>
+                
+            </li>
+        </ul>
+    </div>
+</div>
+        <!-- Experience Card 3 -->
+        <div class="relative bg-black rounded-xl shadow-2xl overflow-hidden transform transition-all duration-300 hover:scale-105 hover:shadow-xl hover:shadow-gray-900/50 border border-gray-700 hover:border-gray-500">
+            <div class="p-4 sm:p-6 bg-gradient-to-br from-gray-950 to-black rounded-xl backdrop-blur-lg transition-all duration-300 hover:from-black hover:to-gray-900">
+                <div class="absolute inset-0 bg-black/50 opacity-100 hover:opacity-0 transition-opacity duration-500"></div>
+                <h3 class="text-lg sm:text-xl md:text-2xl font-semibold bg-gradient-to-r from-violet-200 to-white inline-block text-transparent bg-clip-text">
+                    ...
+                </h3>
+                <p class="text-xs sm:text-sm md:text-base text-slate-200 mt-2 hover:text-slate-100 transition-colors duration-300">
+                    <!-- Fill in the details here -->
+                </p>
+                <p class="text-xs sm:text-sm md:text-base text-slate-300 italic hover:text-slate-200 transition-colors duration-300">
+                    <!-- Fill in the date range here -->
+                </p>
+                <ul class="mt-3 sm:mt-4 space-y-2 sm:space-y-3 text-slate-200 hover:text-slate-100 transition-colors duration-300 text-xs sm:text-sm md:text-base">
+                    <li class="flex items-start">
+                        <span class="text-violet-400 mr-2">•</span>
+                        <!-- Fill in the responsibilities here -->
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Small Title After Section -->
+    
+</section>
+
+
+
+
+
+
+
+
         
         
         <section id="tech" class="py-14 sm:py-20">
