@@ -57,28 +57,11 @@
                 <br class="hidden sm:block" /> <!-- Hide line break on mobile -->
                 as
                 <br class="sm:hidden" /> <!-- Add line break only on mobile -->
-                Front End 
+                Web
                 <span class="poppins text-violet-400">Developer</span>
             </h2>
 
-            <p class="font-['Inter'] text-justify text-lg sm:text-xl md:text-2xl leading-relaxed max-w-3xl mx-auto">
-                <span class="text-transparent bg-gradient-to-r from-transparent via-violet-100 to-transparent bg-[length:300%_100%] bg-clip-text animate-infinite-reveal font-medium tracking-wide transition-all duration-500 ease-[cubic-bezier(0.4,0,0.2,1)] hover:scale-[1.02] hover:via-blue-400 inline-block">
-                    <b class="font-semibold">Information Science Engineering</b> student based in 
-                    <span class="underline decoration-wavy decoration-1">Bengaluru</span> with a passion for 
-                    <span class="italic"><b class="font-bold violet-400">Web development.</b>
-                    </span></span>
-            </p>
-
-            <style>
-            @keyframes infinite-reveal {
-                0% { background-position: 200% 0; }
-                100% { background-position: -200% 0; }
-            }
-            .animate-infinite-reveal {
-                animation: infinite-reveal 6s linear infinite;
-            }
-            </style>
-
+            
             <!-- get in tch bttn  -->
             <a href="mailto:samarthmise2025@gmail.com" 
             class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950 inline-block transition-all duration-300 border-0 outline-none hover:border-0 focus:border-0 active:border-0 hover:outline-none focus:outline-none active:outline-none">
@@ -193,6 +176,103 @@
                     
                 </Step>
             </div>
+
+     <Step step={steps[4]}>
+                <div class="mt-4">
+                    <p class="text-gray-500 mb-1 text-center">
+                        Experimenting, building, and learning.
+                    </p>
+                    <div class="accordion w-full space-y-3 mt-6">
+                        <details class="group">
+                            <summary class="cursor-pointer text-violet-400 bg-gray-950 p-4 rounded-lg hover:bg-black transition-all duration-300 ease-in-out flex justify-between items-center shadow-md hover:shadow-lg">
+                                <span class="flex items-center text-lg">
+                                    <i class="fa-solid fa-layer-group mr-2"></i> Tres en Raya
+                                </span>
+                                <span class="text-violet-400 transform transition-transform duration-300 group-open:rotate-180">
+                                    <i class="fa-solid fa-chevron-down"></i>
+                                </span>
+                            </summary>
+                            <div class="accordion-content bg-black group-open:bg-gray-900 p-4 rounded-b-lg border-t border-gray-900 text-gray-200 opacity-0 group-open:opacity-100 transition-all duration-300 ease-in-out">
+                                <div class="flex items-start">
+                                    <p class="text-gray-200 text-[0.8125rem] text-left">
+                                        Built on <strong class="text-violet-400">JS</strong>, <strong class="text-violet-400">HTML</strong>, and <strong class="text-violet-400">CSS</strong>, this fully responsive Tic-Tac-Toe game offers a fun and interactive experience.
+                                    </p>
+                                    <a href="https://tic-tac-toe-o79b.vercel.app/" target="_blank" class="text-violet-400 hover:text-violet-300 transition-colors duration-200 flex items-center ml-auto text-[0.8125rem]">
+                                        Live <i class="fa-solid fa-globe ml-2"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </details>
+                        <details class="group">
+                            <summary class="cursor-pointer text-violet-400 bg-gray-950 p-4 rounded-lg hover:bg-black transition-all duration-300 ease-in-out flex justify-between items-center shadow-md hover:shadow-lg">
+                                <span class="flex items-center text-lg">
+                                    <i class="fa-solid fa-layer-group mr-2"></i> Tap&Lol
+                                </span>
+                                <span class="text-violet-400 transform transition-transform duration-300 group-open:rotate-180">
+                                    <i class="fa-solid fa-chevron-down"></i>
+                                </span>
+                            </summary>
+                            <div class="accordion-content bg-black group-open:bg-gray-900 p-4 rounded-b-lg border-t border-gray-900 text-gray-200 opacity-0 group-open:opacity-100 transition-all duration-300 ease-in-out">
+                                <div class="flex items-start">
+                                    <p class="text-gray-200 text-[0.8125rem] text-left">
+                                        Tap&Lol is a 100% responsive and interactive Meme Generator built using <strong class="text-violet-400">HTML</strong>, <strong class="text-violet-400">CSS</strong>, <strong class="text-violet-400">JavaScript</strong>, <strong class="text-violet-400">API</strong>, and powered by the <strong class="text-violet-400">GSAP</strong>. It offers a fun and engaging way to tap through  memes, making it perfect for spending time and laughing. With smooth animations and dynamic transitions.
+                                    </p>
+                                    <a href="https://tapandlol.netlify.app/" target="_blank" class="text-violet-400 hover:text-violet-300 transition-colors duration-200 flex items-center ml-auto text-[0.8125rem]">
+                                        Live <i class="fa-solid fa-globe ml-2"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </details>
+                        <details class="group">
+                            <summary class="cursor-pointer text-violet-400 bg-gray-950 p-4 rounded-lg hover:bg-black transition-all duration-300 ease-in-out flex justify-between items-center shadow-md hover:shadow-lg">
+                                <span class="flex items-center text-lg">
+                                    <i class="fa-solid fa-layer-group mr-2"></i> Connect Me Via
+                                </span>
+                                <span class="text-violet-400 transform transition-transform duration-300 group-open:rotate-180">
+                                    <i class="fa-solid fa-chevron-down"></i>
+                                </span>
+                            </summary>
+                            <div class="accordion-content bg-black group-open:bg-gray-900 p-4 rounded-b-lg border-t border-gray-900 text-gray-200 opacity-0 group-open:opacity-100 transition-all duration-300 ease-in-out">
+                                <div class="flex items-start">
+                                    <p class="text-gray-200 text-[0.8125rem] text-left">
+                                            Connect Me Via is a quick and stylish social link hub, whipped up in just 10 minutes using <strong class="text-violet-400">HTML</strong>, <strong class="text-violet-400">CSS</strong>, and <strong class="text-violet-400">GSAP</strong>. Inspired by Linktree, it’s a simple yet effective way to share multiple <br> contact points or social profiles in one place. Featuring smooth animations and a clean design, it’s a testament to rapid prototyping and creative experimentation.
+                                        </p>
+                                    <a href="https://connectmevia.netlify.app/" target="_blank" class="text-violet-400 hover:text-violet-300 transition-colors duration-200 flex items-center ml-auto text-[0.8125rem]">
+                                        Live <i class="fa-solid fa-globe ml-2"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </details>
+                        <details class="group">
+                            <summary class="cursor-pointer text-violet-400 bg-gray-950 p-4 rounded-lg hover:bg-black transition-all duration-300 ease-in-out flex justify-between items-center shadow-md hover:shadow-lg">
+                                <span class="flex items-center text-lg">
+                                    <i class="fa-solid fa-layer-group mr-2"></i> Section 4
+                                </span>
+                                <span class="text-violet-400 transform transition-transform duration-300 group-open:rotate-180">
+                                    <i class="fa-solid fa-chevron-down"></i>
+                                </span>
+                            </summary>
+                            <div class="accordion-content bg-black group-open:bg-gray-900 p-4 rounded-b-lg border-t border-gray-900 text-gray-200 opacity-0 group-open:opacity-100 transition-all duration-300 ease-in-out">
+                                <!-- Empty content area -->
+                            </div>
+                        </details>
+                        <details class="group">
+                            <summary class="cursor-pointer text-violet-400 bg-gray-950 p-4 rounded-lg hover:bg-black transition-all duration-300 ease-in-out flex justify-between items-center shadow-md hover:shadow-lg">
+                                <span class="flex items-center text-lg">
+                                    <i class="fa-solid fa-layer-group mr-2"></i> Section 5
+                                </span>
+                                <span class="text-violet-400 transform transition-transform duration-300 group-open:rotate-180">
+                                    <i class="fa-solid fa-chevron-down"></i>
+                                </span>
+                            </summary>
+                            <div class="accordion-content bg-black group-open:bg-gray-900 p-4 rounded-b-lg border-t border-gray-900 text-gray-200 opacity-0 group-open:opacity-100 transition-all duration-300 ease-in-out">
+                                <!-- Empty content area -->
+                            </div>
+                        </details>
+                    </div>
+                </div>
+            </Step
+
         </section>
  
 
@@ -753,6 +833,102 @@
                 transform: perspective(500px) rotateX(0deg);
             }
         </style>
+
+
+
+
+
+
+
+<section id="cert" class="p-4 sm:p-8 md:p-12 lg:p-16 bg-slate-800/20 backdrop-blur-md text-white mt-12 sm:mt-24 md:mt-48 mb-4 font-sans relative overflow-hidden scroll-mt-12">
+    <h2 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-10 sm:mb-14">
+        <span class="bg-gradient-to-r from-white to-violet-400 inline-block text-transparent bg-clip-text">
+            Certificates Achieved
+        </span>
+        <i class="fas fa-award ml-2"></i>
+        
+    </h2>
+    <div class="flex flex-col gap-6 md:flex-row md:gap-8 justify-between">
+        <!-- Left Side: First 3 Cards -->
+        <div class="flex-1 space-y-10 w-full">
+            <div class="bg-slate-950 p-4 rounded-lg border-l-4 border-violet-400 shadow-md hover:shadow-xl hover:scale-[1.02] transition duration-300 ease-in-out">
+                <h3 class="text-violet-300 text-lg sm:text-2xl font-semibold mb-2 flex flex-col sm:flex-row sm:justify-between sm:items-center cursor-pointer gap-2">
+                    <span class="flex items-center flex-shrink-0"><span class="text-violet-100">Power BI</span>: Certificate of Completion <i class="fas fa-award ml-2"></i></span>
+                    <span class="text-violet-600 text-sm sm:text-base sm:text-right">16/02/2025</span>
+                </h3>
+                <div class="text-gray-300 mt-2 text-sm sm:text-base">
+                    <p>Issued by: <span class="font-bold text-violet-100">TechTip24</span> <i class="fas fa-building ml-2"></i></p>
+                    <p>For: Successfully Completing 4 Hours of Data Analytics Using POWER BI Workshop with END-TO-END Project</p>
+                    <p class="font-bold text-violet-400 mt-2">Issued by: Aditya, CEO & Founder, TechTip24 <i class="fas fa-user-tie ml-2"></i></p>
+                </div>
+            </div>
+            <div class="bg-slate-950 p-4 rounded-lg border-l-4 border-violet-400 shadow-md hover:shadow-xl hover:scale-[1.02] transition duration-300 ease-in-out">
+                <h3 class="text-violet-300 text-lg sm:text-2xl font-semibold mb-2 flex flex-col sm:flex-row sm:justify-between sm:items-center cursor-pointer gap-2">
+                    <span class="flex items-center flex-shrink-0"><span class="text-violet-100">CSS</span>: Official Certificate of Completion <i class="fas fa-trophy ml-2"></i></span>
+                    <span class="text-violet-600 text-sm sm:text-base sm:text-right">31/01/2025</span>
+                </h3>
+                <div class="text-gray-300 mt-2 text-sm sm:text-base">
+                    <p>Issued by: <span class="font-bold text-violet-600">Codekaro</span> <i class="fas fa-building ml-2"></i></p>
+                    <p>For: Successful Completion of How To CSS 5 Days Bootcamp</p>
+                    <p class="font-bold text-violet-400 mt-2">Issued by: Ashish Shukla, CEO - Codekaro <i class="fas fa-user-tie ml-2"></i></p>
+                </div>
+            </div>
+            <div class="bg-slate-950 p-4 rounded-lg border-l-4 border-violet-400 shadow-md hover:shadow-xl hover:scale-[1.02] transition duration-300 ease-in-out">
+                <h3 class="text-violet-300 text-lg sm:text-2xl font-semibold mb-2 flex flex-col sm:flex-row sm:justify-between sm:items-center cursor-pointer gap-2">
+                    <span class="flex items-center flex-shrink-0"><span class="text-violet-100">Power BI</span>: Certified Record of Completion <i class="fas fa-check-circle ml-2"></i></span>
+                    <span class="text-violet-600 text-sm sm:text-base sm:text-right">23/02/2025</span>
+                </h3>
+                <div class="text-gray-300 mt-2 text-sm sm:text-base">
+                    <p>Issued by: <span class="font-bold text-violet-600">OM Officemaster</span> <i class="fas fa-building ml-2"></i></p>
+                    <p>For: Successful Completion of PowerBI Workshop (Creating AI-Powered Interactive Dashboards in under 30 mins)</p>
+                    <p class="font-bold text-violet-400 mt-2">Issued by: Aditya Koenka & Aditya Kachave, Co-founders <i class="fas fa-users ml-2"></i></p>
+                </div>
+            </div>
+        </div>
+        <!-- Vertical Double-Line Divider -->
+        <div class="hidden md:block w-2 relative self-stretch my-2">
+            <div class="absolute inset-0 flex justify-between">
+                <div class="w-0.5 bg-gradient-to-b from-violet-500 to-violet-700 rounded-full"></div>
+                <div class="w-0.5 bg-gradient-to-b from-violet-500 to-violet-700 rounded-full"></div>
+            </div>
+        </div>
+        <!-- Right Side: Last 3 Cards -->
+        <div class="flex-1 space-y-10 w-full">
+            <div class="bg-slate-950 p-4 rounded-lg border-l-4 border-violet-400 shadow-md hover:shadow-xl hover:scale-[1.02] transition duration-300 ease-in-out">
+                <h3 class="text-violet-300 text-lg sm:text-2xl font-semibold mb-2 flex flex-col sm:flex-row sm:justify-between sm:items-center cursor-pointer gap-2">
+                    <span class="flex items-center flex-shrink-0"><span class="text-violet-100">Figma</span>: Certificate of Completion <i class="fas fa-pen-fancy ml-2"></i></span>
+                    <span class="text-violet-600 text-sm sm:text-base sm:text-right">8/03/2025</span>
+                </h3>
+                <div class="text-gray-300 mt-2 text-sm sm:text-base">
+                    <p>Issued by: <span class="font-bold text-violet-600">Growth School</span> <i class="fas fa-building ml-2"></i></p>
+                    <p>For: Successfully Completing the Figma Workshop</p>
+                    <p class="font-bold text-violet-400 mt-2">Issued by: Prithvi Kumar, Founder & Vaibhav Sisinty, UK Designer II <i class="fas fa-users ml-2"></i></p>
+                </div>
+            </div>
+            <div class="bg-slate-950 p-4 rounded-lg border-l-4 border-violet-400 shadow-md hover:shadow-xl hover:scale-[1.02] transition duration-300 ease-in-out">
+                <h3 class="text-violet-300 text-lg sm:text-2xl font-semibold mb-2 flex flex-col sm:flex-row sm:justify-between sm:items-center cursor-pointer gap-2">
+                    <span class="flex items-center flex-shrink-0">Empty Certificate Slot <i class="fas fa-question ml-2"></i></span>
+                    <span class="text-violet-600 text-sm sm:text-base sm:text-right">??/??/????</span>
+                </h3>
+                <div class="text-gray-300 mt-2 text-sm sm:text-base">
+                    <p>This slot is reserved for a future certificate.</p>
+                </div>
+            </div>
+            <div class="bg-slate-950 p-4 rounded-lg border-l-4 border-violet-400 shadow-md hover:shadow-xl hover:scale-[1.02] transition duration-300 ease-in-out">
+                <h3 class="text-violet-300 text-lg sm:text-2xl font-semibold mb-2 flex flex-col sm:flex-row sm:justify-between sm:items-center cursor-pointer gap-2">
+                    <span class="flex items-center flex-shrink-0">Empty Certificate Slot <i class="fas fa-question ml-2"></i></span>
+                    <span class="text-violet-600 text-sm sm:text-base sm:text-right">??/??/????</span>
+                </h3>
+                <div class="text-gray-300 mt-2 text-sm sm:text-base">
+                    <p>This slot is reserved for a future certificate.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
 
             
             
