@@ -271,7 +271,7 @@
                         </details>
                     </div>
                 </div>
-            </Step
+            </Step>
 
         </section>
  
