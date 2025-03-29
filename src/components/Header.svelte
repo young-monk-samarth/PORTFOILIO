@@ -3,7 +3,9 @@
     export let tabs = [
         { name: "PROJECTS", link: "#projects" },
         { name: "ABOUT ME", link: "#about" },
+         { name: "EXPERIENCE", link: "#xp"},
         { name: "TECHSTACK", link: "#tech" },
+        { name: "CERTIFICATES", link: "#cert" },
         { name: "CONTACT", link: "#connect" },
     ];
     let isMenuOpen = false;
